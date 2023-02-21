@@ -1,0 +1,108 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body {
+    background-color: #1b162b;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background-color: #151121;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 60%;
+    width: 70%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.select-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.user {
+    padding: 30px 20px;
+    background-color: #1b162b;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 0.25 1 25%;
+}
+
+.user:last-child {
+    color: #2a93d4;
+}
+
+.user:hover {
+    background-color: #2b363d;
+    color: #8338d9;
+    transition: 0.3s;
+}
+
+.user-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.add-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.add-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.manage-users {
+    background-color: #1b162b;
+    color: #2a93d4;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.manage-users:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
